@@ -47,16 +47,7 @@ code {
 
 .note.new {
 	background-color: #de8ed3;
-}
-
-textarea {
-	border: none;
-	resize: none;
-	background-color: #de8ed3;
-}
-
-textarea:focus {
-	outline: none;
+	cursor: pointer;
 }
 
 .note-footer {
@@ -66,9 +57,5 @@ textarea:focus {
 }
 
 .delete:hover {
-	cursor: pointer;
-}
-
-.save:hover {
 	cursor: pointer;
 }
