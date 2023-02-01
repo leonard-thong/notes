@@ -11,3 +11,64 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+	max-width: 1080px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 20px;
+	padding-left: 20px;
+	min-height: 100vh;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.notes {
+	display: grid;
+	grid-gap: 1.2rem;
+	grid-template-columns: repeat(
+		auto-fill,
+		minmax(250px, 1fr)
+	);
+}
+
+.note {
+	background-color: #faf28d;
+	padding: 1.2rem;
+	min-height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.note.new {
+	background-color: #de8ed3;
+}
+
+textarea {
+	border: none;
+	resize: none;
+	background-color: #de8ed3;
+}
+
+textarea:focus {
+	outline: none;
+}
+
+.note-footer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.delete:hover {
+	cursor: pointer;
+}
+
+.save:hover {
+	cursor: pointer;
+}
