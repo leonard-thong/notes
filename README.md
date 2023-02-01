@@ -1,2 +1,2 @@
 # Notes
-Notes app created with React and Firebase
+Number generator frontend that generates random number for user
